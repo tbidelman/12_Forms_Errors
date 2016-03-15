@@ -1,0 +1,75 @@
+/*
+
+	Forms!
+
+*/
+
+* {
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 10px;
+}
+#wrap {
+	width: 500px;
+	margin: auto;
+	font-size: 1.6em;
+}
+h1 {
+	font-size: 2.0em;
+	text-align: center;
+	text-shadow: 1px 1px #CAD1D2;
+	margin: 0;
+	padding: 2px 0px 2px 0px;
+}
+h3 {
+	font-size: 1.2em;
+	text-align: left;
+	margin: 2px 0px 2px 0px;
+	font-weight: 600;
+}
+input[type=text], input[type=password], input[type=email], select, textarea, .radio-group, .checkbox-group {
+	display: inline-block;
+	background-color: #FFFFFF;
+	width: 100%;
+	margin: 0px 0px 6px 0px;
+}
+input:focus {
+	background-color: #F3EDEE;
+	border: 1px solid #CBCFD1;
+}
+.radio-pair {
+	display: inline-block;
+	width: 64px;
+	text-align: center;
+	vertical-align: top;
+}
+input[type=radio] {
+	display: block;
+	margin: 2px auto;
+}
+input[type=checkbox] {
+	margin: 0px 0px 0px 24px;
+}
+.button-group {
+	text-align: right;
+	margin: 2px;
+}
+input[type=submit] {
+	text-shadow: 1px 1px #fff;
+	width: 120px;
+	padding: 2px;
+	margin: 8px 4px 6px 4px;
+	font-size: 1.1em;
+}
+button {
+	text-shadow: 1px 1px #fff;
+	width: 80px;
+	padding: 2px;
+	margin: 6px 8px 4px 4px;
+}
